@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TIenda de autos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Bienvenido a la tienda de auto</h1>
     <input type="text" class="busqueda producto" placeholder="Buscar Productos...">
+    <div class="filtros"> 
+        <label><input type="checkbox" checked>Marcas</label>
+        <label><input type="checkbox" checked>Modelo</label>
+        <label><input type="checkbox" checked>Precio</label>
+    </div>
+    <ul class="Autos">
+        <li class="Producto">Fiat 1 - $2000 <button>Comprar</button></li>
+        <li class="Producto">Fiat Strada - $4500 <button>Comprar</button></li>
+        <li class="Producto">Fiat Toro - $5000 <button>Comprar</button></li>
+        <li class="Producto">Fiat Palio - $3500 <button>Agotado</button>></li>
+    </ul>
+    <form class="Formulario">
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Correo electronico">
+        <input type="submit" placeholder="Enviar">
+    </form>
     
 </body>
 </html>
